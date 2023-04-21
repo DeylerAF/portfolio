@@ -1,0 +1,15 @@
+/* ========== Scroll Bar ========== */
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scroll-thumb-color);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    width: 0.6rem;
+    background-color: var(--text-color-light);
+}
