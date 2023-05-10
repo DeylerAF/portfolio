@@ -23,3 +23,63 @@
 </head>
 
 <body>
+    <!-- ========== Header ========== -->
+    <header class="header" id="header">
+        <nav class="nav container navbar-expand-lg">
+            <a href="#" class="nav__logo navbar-brand ml-3">Deyler A.F</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="fas fa-home nav__icon"></i>Home
+                            <!-- <i class="uil uil-estate nav__icon"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="fas fa-user nav__icon"></i>About
+                            <!-- <i class="uil uil-user nav__icon"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="fas fa-lightbulb nav__icon"></i>Skills
+                            <!-- <i class="uil uil-coffee nav__icon"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="fas fa-award nav__icon"></i>Qualifications
+                            <!-- <i class="uil uil-award nav__icon"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="fas fa-briefcase nav__icon"></i>Portfolio
+                            <!-- <i class="uil uil-presentation-check nav__icon"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="fas fa-paper-plane nav__icon"></i>Contact
+                            <!-- <i class="uil uil-message nav__icon"></i> -->
+                        </a>
+                    </li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+                <!-- <i class="uil uil-times nav__close" id="nav-close"></i> -->
+            </div>
+            <div class="nav__btns">
+                <!-- Buttons for Changing Theme -->
+                <i data-mode="dark" class="fas fa-moon moon-changed-theme" id="theme-button"></i>
+                <!-- <i data-mode="dark" class="uil uil-moon moon-changed-theme" id="theme-button"></i> -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-th"></i>
+                    <!-- <i class="uil uil-apps"></i> -->
+                </div>
+            </div>
+        </nav>
+    </header>
